@@ -1,16 +1,19 @@
 const express = require('express');
-const routes = require('./routes');
-// import sequelize connection
+const sequelize = require('./config/connection');
+const routes = require('./routes/api'); // This now includes categoryRoutes, productRoutes, and tagRoutes
 
 const app = express();
-const PORT = process.env.PORT || 3002;
+const PORT = process.env.PORT || 3001;
 
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
-app.use(routes);
-//app.use('/api', routes); // Set up all routes under the '/api' prefix
-// sync sequelize models to the database, then turn on the server
-app.listen(PORT, () => {
-  console.log(`App listening on port ${PORT}!`);
+app.use('/api', routes); // Use the centralized routes
+
+
+sequelize.sync({ force: false }).then(() => {
+    app.listen(PORT, () => console.log(`App listening on port ${PORT}!`));
+}).catch(err => {
+    console.error('Failed to sync db: ' + err.message);
 });
+
