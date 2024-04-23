@@ -45,5 +45,7 @@ The same pattern applies for /api/products and /api/tags routes.
 
 ## Walkthrough Video
 
+ https://drive.google.com/file/d/18q_qb4jS-0d7NBZ3enfXy6cTgB4rCvtN/view
+ 
 ## License
 This project is licensed under the MIT License
