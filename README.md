@@ -1,6 +1,6 @@
 # EStore_ORM
-## Overview
-This project involves building the back end for an e-commerce site using Express.js and Sequelize to interact with a PostgreSQL database. The API supports all CRUD operations on products, categories, and tags, mimicking real-world e-commerce back-end operations.
+## Description
+EStore_ORM focuses on developing a robust back-end system for an e-commerce platform using Express.js and Sequelize with a PostgreSQL database. Designed to support dynamic web-based retail operations, it provides comprehensive API endpoints for managing products, categories, and tags. The system is crafted to demonstrate the use of Object-Relational Mapping (ORM) in facilitating database operations through a clean and manageable codebase. By leveraging modern technologies, this back end ensures scalability, maintainability, and a seamless data handling experience to support complex e-commerce business logic.
 
 ## Technologies Used
 - Node.js - JavaScript runtime environment
