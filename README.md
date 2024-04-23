@@ -48,6 +48,11 @@ The same pattern applies for /api/products and /api/tags routes.
  https://drive.google.com/file/d/18q_qb4jS-0d7NBZ3enfXy6cTgB4rCvtN/view
 
  https://drive.google.com/file/d/1r0QULr1EP1Oi3hRlwGfRRmcxenCi7anK/view
+
+ 
+ ## Credits
+ 
+ This project was created by Ummul Mukta to demonstrate skills building the back end for an e-commerce site using Express.js and Sequelize to interact with a PostgreSQL database.
  
 ## License
 This project is licensed under the MIT License
