@@ -25,3 +25,20 @@ This project involves building the back end for an e-commerce site using Express
 DB_USER='yourUsername'
 DB_PASSWORD='yourPassword'
 DB_NAME='ecommerce_db'
+
+## Usage
+Once the server is running, you can use an API client like Insomnia or Postman to test the RESTful API routes.
+
+## API Endpoints
+GET /api/categories - Retrieves all categories
+GET /api/categories/:id - Retrieves a single category by ID
+POST /api/categories - Creates a new category
+PUT /api/categories/:id - Updates a category by ID
+DELETE /api/categories/:id - Deletes a category by ID
+
+The same pattern applies for /api/products and /api/tags routes.
+
+## Walkthrough Video
+
+## License
+This project is licensed under the MIT License
